@@ -8,10 +8,8 @@ function nowServing(line) {
   if (line.length < 1) {
     return "There is nobody waiting to be served!";
   }
-  else {
-    var person = line.shift();
-    return `Currently serving ${person}.`;
-  }
+  var person = line.shift();
+  return `Currently serving ${person}.`;
 }
 function currentLine(line) {
   var list = [];
