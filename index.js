@@ -20,6 +20,7 @@ function nowServing(line) {
   return `Currently serving ${person}.`;
 }
 function currentLine(line) {
+  
   var list = [];
   if (line.length < 1) {
     return "The line is currently empty.";
