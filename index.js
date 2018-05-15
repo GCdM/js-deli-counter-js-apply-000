@@ -6,6 +6,10 @@ function takeANumber(line) {
   line.push(counter);
   return `Welcome. You are number ${counter}.`;
 }
+
+console.log(takeANumber(katzDeli))
+
+
 function nowServing(line) {
   if (line.length < 1) {
     return "There is nobody waiting to be served!";
