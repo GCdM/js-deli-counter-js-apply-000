@@ -10,10 +10,7 @@ function takeANumber(line) {
 console.log(takeANumber(katzDeli))
 console.log(takeANumber(katzDeli))
 console.log(nowServing(katzDeli))
-
-
-
-
+console.log(takeANumber(katzDeli))
 
 function nowServing(line) {
   if (line.length < 1) {
