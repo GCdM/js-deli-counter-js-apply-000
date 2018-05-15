@@ -2,7 +2,6 @@ var katzDeli = [];
 var counter = 0
 
 function takeANumber(line) {
-  var counter = line.length;
   counter++;
   line.push(counter);
   return `Welcome. You are number ${counter}.`;
