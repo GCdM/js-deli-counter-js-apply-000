@@ -1,4 +1,5 @@
 var katzDeli = [];
+var counter = 0
 
 function takeANumber(line) {
   var counter = line.length;
